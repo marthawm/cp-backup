@@ -1,0 +1,125 @@
+.box{
+	box-sizing: border-box;
+	webkit-box-sizing: border-box;
+	
+}
+.box-display{
+	box-sizing: border-box;
+	webkit-box-sizing: border-box;
+	display: inline-block;
+	
+}
+.photo-impressions-section {
+	background: $white;
+	overflow: hidden;
+	height: auto;
+	
+}
+
+.photo {
+	width: 100%;
+	margin: 0;
+	display: block;	
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+	cursor: pointer;
+
+	&:hover {
+		-webkit-filter: grayscale(0%);
+		filter: grayscale(0%);
+	}
+}
+
+.row1, .row2 {
+	@extend .box;
+	display: flex; //to remove white-space between divs, rather than display: block
+	width: 100%;
+	overflow: auto;
+	float: left;
+}
+
+.row1-col1 {
+	@extend .box;
+	width: calc(100% * 336/1219); // column width divided by total width
+	
+	.row1-col1-photo1 {
+		@include photo-styling (50%);
+	}
+
+	.row1-col1-photo2 {
+		@include photo-styling (50%);
+	}
+
+	.row1-col1-photo3 {
+		@include photo-styling (100%);	
+	}
+}
+
+.row1-col2 {
+	@extend .box-display;
+	width: calc(100% * 340/1219);
+	
+	.row1-col2-photo1 {
+		@include photo-styling (100%);
+	}
+}
+
+.row1-col3 {
+	@extend .box-display;
+	width: calc(100% * 543/1219);
+	
+}
+
+.row1-col3-row1 {
+	width: 100%;
+	display: flex;//to keep children elements from jumping out
+
+	.row1-col3-row1-photo1 {
+		@include photo-styling (calc(100% * 332/549));
+	}
+
+	.row1-col3-row1-photo2 {
+		@include photo-styling (calc(100% * 217/549));
+	}
+}
+
+.row1-col3-row2 {
+	width: 100%;
+	display: flex;//to keep children elements from jumping out
+
+	.row1-col3-row2-photo1 {
+		@include photo-styling (calc(100% * 217/549));
+	}
+
+	.row1-col3-row2-photo2 {
+		@include photo-styling (calc(100% * 332/549));
+	}
+}
+
+.row2{
+	border-bottom: 3px solid $white;
+
+	.row2-photo1 {
+		@include photo-styling (calc(100% * 254/1440));
+	}
+
+	.row2-photo2 {
+		@include photo-styling (calc(100% * 531/1440));
+	}
+
+	.row2-photo3 {
+		@include photo-styling (calc(100% * 401/1440));
+	}
+
+	.row2-photo4 {
+		@include photo-styling (calc(100% * 254/1440));
+	}
+}
+
+.photo-impressions-section:before, .photo-impressions-section:after {
+		content:"";
+		display:block;
+		height: 81px; /* fixed header height*/
+		margin:-10px 0 0; /* negative fixed header height */
+		}

@@ -1,0 +1,78 @@
+.newsletter-block {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 20;
+  top: 0;
+  color: $white;
+  justify-content: center;
+  align-items: center;
+
+  .newsletter-container{    
+    background-color: $dark-orange;
+    width: 500px;
+    padding: 30px 30px 35px;
+
+    p{
+      text-align: center;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 25px;
+      margin: 10px 0 15px;
+    }
+
+    form{
+      margin: 0 auto;
+      width: 300px;
+      text-transform: uppercase;
+
+      input{
+        width: 267px;
+        border: solid 1px;
+        margin: 5px 0 10px;
+        padding-left: 30px;
+        outline: none;
+        font-size: 15px;
+      }
+    }
+
+    .pitch{
+      display: block;
+      font-weight: 300;
+    }
+
+    .name-input{
+      margin-bottom: 25px;
+    }
+
+    .close-newsletter {
+      float: right;
+      background: none;
+      border: none;
+      margin: -20px -15px 0 0;
+      font-size: 20px;
+      outline: none;
+      width: 20px;
+    }
+
+    @media screen and (max-width: 480px) {
+      width: 70vw;
+      padding-bottom: 45px;
+
+      form{
+        width: 100%;
+
+        input{
+          width: 85%;
+        }
+      }
+
+      .register-btn{
+        width: 100%;
+        margin-top: 25px;
+      }
+    }
+  }
+}

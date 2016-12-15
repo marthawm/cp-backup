@@ -1,0 +1,52 @@
+/* icons for newsletter popup and register project form*/ 
+.name-icon-white {
+  background: url("../img/pitch-your-project-name-icon.png") no-repeat 4px 0px;
+}								
+
+.email-icon-white {
+  background: url("../img/pitch-your-project-email-icon.png") no-repeat 4px 0px;
+}
+
+.company-icon-white {
+  background: url("../img/pitch-your-project-company-icon.png") no-repeat 1px 0px;
+}
+
+.phone-icon-white {
+  background: url("../img/pitch-your-project-phone-icon.png") no-repeat 4px 0px;
+}
+
+/* icons for the methods sections*/ 
+.icon-methods {  
+    &:hover {
+      cursor: pointer;
+    }
+}
+
+/* icons for the sponsor a project section */
+.name-icon-orange {
+	background: url("../img/register-name-icon.png") no-repeat 4px 0;
+	@media screen and (max-width: 480px) {
+		background: none;
+	}
+}
+
+.email-icon-orange {
+	background: url("../img/register-email-icon.png") no-repeat 4px 0;
+	@media screen and (max-width: 480px) {
+		background: none;
+	}
+}
+
+.company-icon-orange {
+	background: url("../img/register-company-icon.png") no-repeat 4px 0;
+	@media screen and (max-width: 480px) {
+		background: none;
+	}
+}
+
+.phone-icon-orange {
+	background: url("../img/register-phone-icon.png") no-repeat 4px 0;
+	@media screen and (max-width: 480px) {
+		background: none;
+	}
+}

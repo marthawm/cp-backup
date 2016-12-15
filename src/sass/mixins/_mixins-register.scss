@@ -1,0 +1,6 @@
+@mixin register-style($sponsor-height, $sponsor-width) {
+    background: $white;
+    text-align: center;
+    height: $sponsor-height;
+    width: $sponsor-width;
+  }

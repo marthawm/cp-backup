@@ -1,0 +1,48 @@
+.register-section {
+	background: url("../img/register-background.jpg") no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+	text-transform: uppercase;
+
+	.open-register-project {
+		@include register-style(175px, 400px);
+		cursor: pointer;
+		margin: 50px auto;
+
+		.sponsor-arrow {
+			height: 30px;
+			margin-top: 15px;
+		}
+		@media screen and (max-width: 480px) {
+			display: none;
+		}
+	}
+
+	.register-project {
+		@include register-style(auto, 80%);
+		margin: 50px auto;
+		padding-bottom: 5px;
+		height: auto;
+
+		@media screen and (max-width: 850px) {
+			@include register-style(auto, 90%);
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		display: block;
+		.register-form .wpcf7 p {
+			float: none;
+		}
+		.send-register-btn {
+			float: none;
+		}
+		.open-register-project, .close-register{
+			display: none;
+		}
+	}
+}

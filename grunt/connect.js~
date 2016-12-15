@@ -1,0 +1,12 @@
+module.exports={
+	server: {
+        options: {
+            port: 6001,
+            base: './',
+            livereload: false,
+            open: {
+                target: 'http://localhost/codepamoja.com/vagrantpress/wordpress/'
+            }
+        }
+    }
+}

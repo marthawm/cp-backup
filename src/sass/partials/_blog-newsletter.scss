@@ -1,0 +1,73 @@
+
+.input-field{
+    color: $silver-chalice;
+    width: 100%;        
+    font-style: italic;
+    font-size: 14px;
+    padding: 10px 0 10px 10px;
+    box-sizing: border-box;
+    
+}
+.input-legend{
+    background-color: $dark-orange;
+    color: $white;
+    font-weight: bold;
+    
+}
+
+.blog-newsletter-container {
+    margin: 0 auto 0 auto;
+    width: 100%;
+    display: block;
+
+    legend {
+        @extend .input-legend;
+        margin: 0;
+        padding: 8px;
+        font-size: 16px;
+        text-transform: uppercase;
+        width: calc(100% - 26px);
+    }
+
+    form {
+        padding-top: 2px;
+        width: 90%;
+        margin: auto;
+    }
+
+    input[type=email] {
+        @extend .input-field;            
+        margin: 8px 0;
+    }
+    input[type=text] {
+        @extend .input-field;              
+        margin: 4px 0;
+    }
+
+    input[type=submit] {
+        @extend .input-legend;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        padding: 8px 0;
+        margin: 4px 0;
+    }
+    .newsletter, .newsletter-widget{
+        border: 1px solid black;
+        width: calc(100% - 12px);
+        padding: 0;
+        margin: 0;
+        border-color: $silver-chalice;
+        border-top: none;
+    }
+}
+
+
+// styling confirmation page
+#container{
+    border: none;
+    height: calc(100vh - 540px);
+    margin: 40px auto 0;
+    padding: 125px 30px 0;
+    text-align: center;
+}

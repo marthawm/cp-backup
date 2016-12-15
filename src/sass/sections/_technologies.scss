@@ -1,0 +1,72 @@
+.technologies-section {
+  background: linear-gradient($lighting-yellow, $white);
+  padding: 20px 0;
+  width: 100%;
+  @media screen and (max-width: 730px) {
+    padding: 20px 0 0;
+  } 
+  .technologies-title {
+    color: $white;
+  }
+  .technology-wrap {
+    list-style: none;
+    padding: 0;
+    @include flexbox();
+    @include flex-flow(row, wrap);
+    @include flex-justify(center);
+    height: auto;
+    margin: 7px auto;
+    @media screen and (min-width: 1300px){
+      width: 1300px;
+    }
+    @media screen and (max-width: 1299px){
+      width: 850px;
+    }
+    @media screen and (max-width: 850px) {
+      width: 605px;
+    }
+    @media screen and (max-width: 600px) {
+      width: 440px;
+    }
+  }
+}
+
+.tech-hexagon {
+  margin: 0 5px -30px;
+  @media screen and (min-width: 1300px){
+    &:nth-child(1){
+      margin-left: 8%;
+    }
+    &:nth-child(8){
+      margin-right: 8%;
+    }
+  }
+  @media screen and (max-width: 1299px) and (min-width: 601px){
+      &:nth-child(7){
+        margin-left: 10%;
+      }
+      &:nth-child(11){
+        margin-right: 10%;
+      }
+  }
+  @media screen and (max-width: 850px) and (min-width: 601px){
+    transform: scale(0.7);
+    margin:-32px -14px;
+    &:nth-child(7){
+      margin-left: 7%;
+    }
+    &:nth-child(11){
+      margin-right: 7%;
+    }
+  } 
+  @media screen and (max-width: 600px) {
+    transform: scale(0.7);
+    margin:-32px -14px;
+    &:nth-child(1), &:nth-child(8){
+      margin-left: 3%;
+    }
+    &:nth-child(3), &:nth-child(10){
+      margin-right: 3%;
+    }
+  }
+}

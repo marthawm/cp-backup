@@ -1,0 +1,137 @@
+.projects-section {
+    background-color: $green-munsel;
+    height: auto;
+    width: 100%;
+    padding: 40px 0;
+    overflow: hidden;
+    color: $white;
+    word-break: break-all;
+
+    .board-projects {
+        color: $black;
+        z-index: 2;
+        position: absolute;
+        text-align: center;
+        margin: 12% auto;
+        width: 100%;
+        max-width: 923px;
+        left: -1%;
+    }
+        .board-titles {
+            float: left;
+            width: 27.5%;
+            text-align: center;
+            list-style: none;
+            
+            li {
+                line-height: 30px;
+            }
+
+            @media screen and (max-width: 800px){
+                width: 26%;
+                font-size: 16px;
+            }
+            @media screen and (max-width: 600px){
+                width: 25%;
+                font-size: 14px;
+            }
+        }
+    
+    .scrum-board {
+        height: auto;
+        max-width: 923px;
+        position: relative;
+        margin: 0 auto;
+
+        .scrum-board-img{
+            padding-top: 3%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            z-index: 0;
+            max-width: 100%;
+        }
+
+        .static-magnet {
+            position: absolute;
+            bottom: 61px;
+            right: 57px;
+            cursor: pointer;
+            z-index: 10;
+        }
+
+        .draggable-sticky-note {
+            position: absolute;
+            cursor: pointer;
+            top: 70%;
+            left: 10%;
+            z-index:11;
+        }
+
+        .hand{
+            position: absolute;
+            bottom: -160px;
+            z-index: 0;
+            left: -38%;
+        }
+    }    
+
+    .submit-project{
+        text-align: center;
+        margin: 3%;
+    }
+
+}
+
+.projects-text {
+    height: auto;
+    width: 900px;
+    margin: 0 auto;
+    @media screen and (max-width: 1000px){
+        width: 90%;
+    }
+}
+
+.static-magnet{
+    left: 57px;
+    z-index: 5;
+
+    .board-projects{
+        margin-top: 11%;
+        width: 85%;
+        left: 6%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .projects-section .hand {
+        transform: scaleX(-1);
+        -ms-transform: scaleX(-1);
+        right: -25%;
+        top: 60%;
+        img {
+            width: 30%;
+        }
+    }
+}
+
+@media screen and (max-width: 765px){
+    .projects-section .hand {
+        right: -32%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .projects-section .hand {
+        right: -40%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .projects-section .hand {
+        right: -40%;
+        img{
+            width: 25%;
+        }
+    }
+}

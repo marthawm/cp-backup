@@ -1,0 +1,82 @@
+//footer mixins//
+@mixin footer-item-mob {
+    margin: 50px 10px 10px 10px;
+    display: block;
+    width:60px;
+    font-size: 0.8em;
+
+
+    .footer-img {
+      margin: 0 auto;
+      height: 28px;
+    }
+
+    .footer-text {
+      display: none;
+    }
+}
+
+@mixin hexagon-big-mob($color) {
+  .hexagon-outer {
+    position: relative;
+    width: 48px; 
+  	height: 35px;
+    background-color: $color;
+    margin: 17px auto;
+
+    @include border-sides(6px, solid, $color);
+  }
+
+  .hexagon-outer:before,
+  .hexagon-outer:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    right: -6px;
+
+    @include border-sides(30px, solid, transparent);
+  }
+
+  .hexagon-outer:before {
+    bottom: 100%;
+    border-bottom: 17px solid $color;
+  }
+
+  .hexagon-outer:after {
+    top: 100%;
+    border-top: 17px solid $color;
+  }
+}
+
+@mixin hexagon-small-mob {
+  .hexagon-inner {
+    position: relative;
+    width: 48px; 
+    height: 28px;
+    background-color: $white;
+    margin: 14px 0;
+    top: 4px;
+    z-index: 1;
+  }
+
+  .hexagon-inner:before,
+  .hexagon-inner:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    right: 0px;
+    
+    @include border-sides(24px, solid, transparent);
+  }
+
+  .hexagon-inner:before {
+    bottom: 100%;
+    border-bottom: 14px solid $white;
+  }
+
+  .hexagon-inner:after {
+    top: 100%;
+    border-top: 14px solid $white;
+  }
+    
+}

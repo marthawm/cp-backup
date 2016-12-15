@@ -1,0 +1,67 @@
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex($grow, $shrink, $basis) {
+  -webkit-box-flex: $grow $shrink $basis;
+  -moz-box-flex:  $grow $shrink $basis;
+  -webkit-flex:  $grow $shrink $basis;
+  -ms-flex:  $grow $shrink $basis;
+  flex: $grow $shrink $basis;
+}
+
+@mixin flex-flow($direction, $wrap) {
+  -webkit-flex-flow: $direction $wrap;
+  -moz-flex-flow: $direction $wrap;
+  -webkit-flex-flow: $direction $wrap;
+  -ms-flex-flow: $direction $wrap;
+  flex-flow: $direction $wrap;
+}
+
+@mixin flex-justify($justify-content){
+  justify-content: $justify-content;
+  -webkit-justify-content: $justify-content;
+}
+
+@mixin flex-align($align-items){
+  align-items: $align-items;
+  -webkit-align-items: $align-items;
+}
+
+@mixin border-radius($value) {
+  -o-border-radius: $value;
+  -moz-border-radius: $value;
+  -ms-border-radius: $value;
+  -webkit-border-radius: $value;
+  border-radius: $value;
+}
+
+@mixin transiton($property, $duration, $timing-func) {
+  -moz-transition: $property $duration $timing-func;
+  -webkit-transition: $property $duration $timing-func;
+  transition: $property $duration $timing-func;
+}
+
+@mixin translate-rotate($translate, $rotate) {
+  -moz-transform: translateY($translate) rotate($rotate);
+  -webkit-transform: translateY($translate) rotate($rotate);
+  -ms-transform: translateY($translate) rotate($rotate);
+  transform: translateY($translate) rotate($rotate);
+}
+
+@mixin scale($value) {
+    -moz-transform: scale($value);
+    -webkit-transform: scale($value);
+    -ms-transform: scale($value);
+    transform: scale($value);
+}
+
+@mixin gray($current, $ie9){
+  -webkit-filter: grayscale($current);
+  filter: grayscale($current);
+  filter: $ie9;
+}

@@ -1,0 +1,93 @@
+.projects-section {
+	background-color: $green-munsel;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+
+	.board-projects {
+        color: $black;
+        z-index: 2;
+        position: absolute;
+        text-align: center;
+        margin: 26% auto;
+        width: 100%;
+        left: -16%;
+    }
+        .board-titles {
+            width: 100%;
+            text-align: center;
+            list-style: none;
+            
+            li {
+                line-height: 30px;
+            }
+
+            &:nth-child(2), &:nth-child(3) {
+            	margin-top: 80px;
+            }
+        }
+
+	.projects-title {
+		color: $white;
+	}
+
+	p {
+		color: $white;
+		padding: 0 0 5% 0;
+	}
+
+	.scrum-board-img{
+		padding-top: 3%;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	z-index: 0;
+    	max-width: 100%;
+	}
+
+	.submit-project{
+		text-align: center;
+		margin: 8%;
+	}
+
+	.scrum-board {
+		height: auto;
+		max-width: 294px;
+		position: relative;
+		margin: 0 auto;
+	}
+
+	.hand {
+		position: absolute;
+		z-index: 1;
+		top: -76px;
+		right: 234px; 
+		@media screen and (min-width:480px){
+			display: none;
+		}
+	}
+
+	.note {
+		position: absolute;
+		top: 128px;
+		left: 5px;
+		-webkit-transform: scale(0.5); /* Chrome 4+, Op 15+, Saf 3.1, iOS Saf 3.2+ */
+        -moz-transform: scale(0.5); /* Fx 3.5-15 */
+        -ms-transform: scale(0.5); /* IE 9 */
+        -o-transform: scale(0.5); /* Op 10.5-12 */
+        transform: scale(0.5); /* Fx 16+, IE 10+ */
+
+	}
+	.sticky-2{
+		top: 400px;
+		left: 205px;
+	}
+	.static-magnet {
+		display: none;
+	}
+}
+
+.projects-text {
+	height: auto;
+	margin: 0 auto;
+}

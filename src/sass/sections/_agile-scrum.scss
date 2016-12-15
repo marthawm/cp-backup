@@ -1,0 +1,302 @@
+.spanning{
+  .spanx {
+      display: inline-block;
+    }
+  
+}
+.methods-section {
+  padding-top:20px;
+  background-color: $white;
+  /*extra for the styling of the home animation*/
+  h2{
+    margin: 0px auto 30px;
+  }
+  p.intro-text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.scrum-agile-image {
+  position: relative;
+  margin: 30px auto 60px;
+  width: 1000px;
+  color: $white;
+  img {
+    margin-top: 130px;
+    width: 100%;
+  }
+}
+
+.balloons-container {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  top: 0;
+  .single-balloon-container {
+    float: left;
+    width: 250px;
+    height: 200px;
+     word-break: break-all;
+  }
+}
+
+.balloon {
+  padding: 10px;
+  width: 86%;
+  height: 35px;
+  background: $orange;
+  text-align: center;
+  transition: 1s;
+  overflow:hidden;
+
+  h4 {
+    margin: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  p {
+    margin: 0;
+    font-size: 12px;
+    display: none;
+  }
+  .spanu {
+    margin: 5px auto;
+    font-size: 8px;
+    text-transform: uppercase;
+    height: 25px;
+    word-break: break-word;
+  }
+  .spanx {
+    margin: 0;
+    font-size: 12px;
+    display: none;
+    word-break: break-word;
+  }
+}
+
+.balloon-open {
+  height: 110px;
+  width: auto;
+  min-width: 35%;
+}
+
+.single-balloon-container:nth-child(1) {
+  .balloon {
+    margin-top: 220px;
+    margin-left: -20px;
+    width: 80%;
+    height: 35px;
+  }
+  .balloon-open{
+    margin-top: 150px;
+    height: 105px;
+    width: 80%;
+    @extend .spanning;
+  }
+  .arrow-down {
+    margin-left: 81px;
+  }
+}
+
+.single-balloon-container:nth-child(2) {
+ .balloon {
+    margin-top: 235px;
+    margin-left: 92px;
+    width: 35%;
+    height: 35px;
+  }
+  .balloon-open{
+    margin-top: 150px;
+    height: 120px;
+    width: 60%;
+
+    @extend .spanning;
+  }
+  .arrow-down {
+    margin-left: 135px;
+  }
+}
+
+.single-balloon-container:nth-child(3) {
+.balloon {
+    margin-top: 50px;
+    margin-left: 86px;
+    width: 45%;
+    height: 35px;
+  }
+  .balloon-open{
+    margin-top: -20px;
+    height: 105px;
+    width: 80%;
+
+    @extend .spanning;
+  }
+  .arrow-down {
+    margin-left: 142px;
+  }
+}
+
+.single-balloon-container:nth-child(4) {
+  .balloon {
+    margin-left: 95px;
+    margin-top: 200px;
+    width: 45%;
+    height: 60px;
+  }
+  .balloon-open{
+    margin-top: 155px;
+    height: 105px;
+    width: 70%;
+
+    @extend .spanning;
+  }
+  .arrow-down {
+    margin-left: 153px;
+  }
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid $orange;
+}
+
+
+@media screen and (max-width: 1080px) {
+    .scrum-agile-image {
+      margin-top: 10px;
+      width: 700px;
+      img {
+        margin-top: 110px; 
+      }
+    }
+    .balloons-container {
+      .single-balloon-container {
+        width: 175px;
+        
+        .balloon {
+          p {
+          display: none;
+          }
+
+          h4{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .single-balloon-container:nth-child(1) {
+      .balloon {
+        margin-top: 150px;
+        margin-left: -30px;
+        width: 80%;
+        height: 35px;
+        }
+        .balloon-open{
+          margin-top: 55px;
+          height: 130px;
+          width: 80%;
+
+           .spanx {
+              display: inline-block;
+            }
+        }
+        .arrow-down {
+          margin-left: 40px;
+        }
+    }
+
+    .single-balloon-container:nth-child(2) {
+      .balloon {
+        margin-top: 150px;
+        margin-left: 65px;
+        width: 37%;
+        height: 35px;
+      }
+      .balloon-open{
+        margin-top: 35px;
+        height: 150px;
+        width: 60%;
+
+        .spanx {
+          display: inline-block;
+        }
+      }
+      .arrow-down {
+        margin-left: 95px;
+      }
+    }
+
+    .single-balloon-container:nth-child(3) {
+      .balloon {
+          margin-top: 30px;
+          margin-left: 66px;
+          width: 45%;
+          height: 35px;
+        }
+        .balloon-open{
+          margin-top: -60px;
+          height: 125px;
+          width: 80%;
+
+          .spanx {
+            display: inline-block;
+          }
+        }
+        .arrow-down {
+          margin-left: 105px;
+        }
+    }
+
+    .single-balloon-container:nth-child(4) {
+      .balloon {
+        margin-left: 71px;
+        margin-top: 144px;
+        height: 48px;
+      }
+      .balloon-open{
+        margin-top: 48px;
+        height: 144px;
+        width: 70%;
+
+        .spanx {
+            display: inline-block;
+        }
+      }
+
+      .arrow-down {
+        margin-left: 110px;
+      }
+    }
+  }
+
+@media screen and (max-width: 800px) {
+  .scrum-agile-image {
+    margin-top: 0;
+    width: 90%;
+    img {
+      margin-top: 40px;
+    }
+  }
+  .single-balloon-container {
+    display: none;
+  }
+}
+
+.container {
+    width:100%;
+    border:1px solid #d3d3d3;
+}
+.container div {
+    width:100%;
+}
+
+.container .content {
+    display: none;
+    padding : 5px;
+}
+

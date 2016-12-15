@@ -1,0 +1,35 @@
+/*
+ * The color names are based on the hexa-color and
+ * converted with http://name-of-color.com/
+*/
+
+
+// basecolors
+$dark-orange: #ff8a00;
+$green-munsel: #00c176; 
+$lighting-yellow: #fabe28;
+$hot-cinnamon: #d35f14;
+$silver-chalice: #acacac;
+$black: #000000;
+$white: #ffffff;
+$orange :#d15f23;
+
+// Categories blogpage
+$fern: #53b35c;
+$deluge: #71589c;
+$royal-blue: #4171d5;
+$turquoise: #41d4cc;
+$goblin: #468155;
+$atlantis: #90cd34;
+$wattle: #d3d140;
+$red-damask: #d57140;
+$valencia: #d3404a;
+
+//blog exerpt color:
+$gray44: #707070;
+
+$category-colors: $deluge, $royal-blue, $turquoise, $goblin, $atlantis, $wattle, $red-damask, $valencia;
+
+body{
+	background-color: $white;
+}

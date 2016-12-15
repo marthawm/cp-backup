@@ -1,0 +1,145 @@
+.reply-wrapper{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 1.3em 1.3em 1.3em 1.3em;
+	text-transform: uppercase;
+	margin: 30px -1px 20px 0;
+
+ 	p {
+ 		text-align: left;
+ 		display: block;
+ 		float: left;
+ 		margin: 0;
+	// 	font-weight: bold;
+	// 	font-size: 18px;
+	// 	text-align: left;
+	} 
+
+	label {
+		font-size: 12px;
+		color: $dark-orange;
+	}
+
+	input {
+		width: 100%;
+		border: 2px solid $dark-orange;
+		box-sizing: border-box;
+		padding-left: 5px;
+	}
+
+	textarea {
+		width: 100%;
+		border: 2px solid $dark-orange;
+		box-sizing: border-box;
+		padding-left: 5px;
+	}
+
+	.required {
+	    float: left;
+	}
+
+	.input-wrapper {
+		width: 97%;
+		color: $black;
+
+		.reply-div {
+			margin-bottom: 10px;
+		}
+
+		.reply-info {
+			float: left;
+			display: inline-block;
+			width: 43%;
+		}
+
+		.comment-input {
+			height: 150px;
+		}
+
+		.reply-right {
+			float: right;
+		}
+
+		.reply-button {
+			width: 43%;
+		}
+	}
+}
+
+/*styling for the comments in the reply section below a blog */
+.comment-form-comment {
+	width: calc(70% + 60px);
+	@media screen and (max-width: 1020px) {
+	  width: 100%;
+	}
+}
+
+.comment-form-email, .comment-form-url, .comment-form-author, .form-submit {
+	width: 35%;
+	padding: 0 60px 0 0;
+
+	@media screen and (max-width: 1020px) {
+	  width: 100%;
+	  float: none;
+	}
+}
+
+.form-submit {
+	.submit {
+		margin-top: 21px;
+	}
+}
+
+.comment-author{
+	img{
+		width: 35px;
+		display: inline-block;
+	}
+
+	.fn, .says{
+		display: inline-block;
+		margin-left: 4px;
+		a{
+			color: $black;
+			font-size: 17px;
+		}
+	}
+	.says {
+    	line-height: 20px;
+	}
+}
+
+.comment-author.vcard{
+	display:flex;
+}
+
+.commentmetadata, .comment-body p {
+    margin-left: 39px;
+}
+.commentmetadata{
+    z-index: 15;
+    margin-top: -16px;
+}
+
+.reply {
+    margin: 0 40px 5px;
+}
+
+.comments-title{
+	margin-bottom: 10px;
+}
+
+.comment-body{
+	border: 1px solid $dark-orange;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+/*comment on comment */
+ul.children {
+    margin-left: 35px;
+}
+
+.comments-area hr{
+    margin: 25px 0;
+}

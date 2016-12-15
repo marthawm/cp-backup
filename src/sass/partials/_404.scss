@@ -1,0 +1,14 @@
+.content-area{
+	min-height: 100%;
+	width: 100%;
+}
+
+.page-wrapper {
+	height: calc(100vh - 420px);
+}
+
+.page-content {
+	position: relative;
+ 	top: calc(50% + 40px);
+ 	transform: translateY(-50%);
+}

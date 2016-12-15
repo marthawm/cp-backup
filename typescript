@@ -1,0 +1,764 @@
+Script started on Mon Apr 25 13:31:58 2016
+[?1034hbash-3.2$ grunt
+[4mRunning "clean:build" (clean) task[24m
+[32m>> [39m8 paths cleaned.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m79[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.15 kB[39m → [32m35.05 kB[39m[22m
+
+[4mRunning "jshint:main" (jshint) task[24m
+[32m>> [39m1 file lint free.
+
+[4mRunning "uglify:my_target" (uglify) task[24m
+[32m>> [39m1 file created.
+
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "connect:server" (connect) task[24m
+Started connect web server on http://localhost:6001
+
+[4mRunning "watch" task[24m
+Waiting...
+[32m>> [39mFile "src/footer.php" changed.
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m79[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[32mDone, without errors.[39m
+[36mCompleted in 2.552s at Mon Apr 25 2016 13:33:16 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/footer.php" changed.
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m79[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[32mDone, without errors.[39m
+[36mCompleted in 1.639s at Mon Apr 25 2016 13:34:26 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/js/main.js" changed.
+[4mRunning "jshint:main" (jshint) task[24m
+[32m>> [39m1 file lint free.
+
+[4mRunning "uglify:my_target" (uglify) task[24m
+[32m>> [39m1 file created.
+
+[32mDone, without errors.[39m
+[36mCompleted in 1.442s at Mon Apr 25 2016 13:35:03 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/js/main.js" changed.
+[4mRunning "jshint:main" (jshint) task[24m
+[32m>> [39m1 file lint free.
+
+[4mRunning "uglify:my_target" (uglify) task[24m
+[32m>> [39m1 file created.
+
+[32mDone, without errors.[39m
+[36mCompleted in 2.202s at Mon Apr 25 2016 13:36:54 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/js/main.js" changed.
+[4mRunning "jshint:main" (jshint) task[24m
+[32m>> [39m1 file lint free.
+
+[4mRunning "uglify:my_target" (uglify) task[24m
+[32m>> [39m1 file created.
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.078s at Mon Apr 25 2016 13:37:00 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/js/main.js" changed.
+[4mRunning "jshint:main" (jshint) task[24m
+
+[1m   src/js/main.js[22m
+      3 |[90m})[39m
+           ^ Missing semicolon.
+
+[31m>> [39m1 error in 1 file
+[33mWarning: Task "jshint:main" failed. Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
+[36mCompleted in 1.863s at Mon Apr 25 2016 13:37:14 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/js/main.js" changed.
+[4mRunning "jshint:main" (jshint) task[24m
+[32m>> [39m1 file lint free.
+
+[4mRunning "uglify:my_target" (uglify) task[24m
+[32m>> [39m1 file created.
+
+[32mDone, without errors.[39m
+[36mCompleted in 2.213s at Mon Apr 25 2016 13:37:21 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.15 kB[39m → [32m35.05 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 4.294s at Mon Apr 25 2016 13:39:51 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.22 kB[39m → [32m35.1 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 4.308s at Mon Apr 25 2016 13:40:24 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.45 kB[39m → [32m35.25 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.980s at Mon Apr 25 2016 13:40:42 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.48 kB[39m → [32m35.26 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.443s at Mon Apr 25 2016 14:35:02 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.48 kB[39m → [32m35.26 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.679s at Mon Apr 25 2016 14:35:31 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.48 kB[39m → [32m35.26 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.513s at Mon Apr 25 2016 14:35:57 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.48 kB[39m → [32m35.26 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.611s at Mon Apr 25 2016 14:36:11 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.48 kB[39m → [32m35.26 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.669s at Mon Apr 25 2016 14:36:23 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.48 kB[39m → [32m35.26 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.460s at Mon Apr 25 2016 14:36:45 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.51 kB[39m → [32m35.3 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 4.018s at Mon Apr 25 2016 15:07:15 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.48 kB[39m → [32m35.26 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.781s at Mon Apr 25 2016 15:07:42 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.54 kB[39m → [32m35.31 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.567s at Mon Apr 25 2016 15:08:06 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.54 kB[39m → [32m35.31 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.838s at Mon Apr 25 2016 15:11:59 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+Error: Invalid CSS after "    margin-top: -": expected expression (e.g. 1px, bold), was "%;"
+        on line 54 of src/sass/sections/_agile-scrum.scss
+        from line 20 of src/sass/desktop-style.scss
+  Use --trace for backtrace.
+[33mWarning: Exited with error code 65 Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
+[36mCompleted in 2.138s at Mon Apr 25 2016 15:13:24 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.54 kB[39m → [32m35.31 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.941s at Mon Apr 25 2016 15:13:32 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.54 kB[39m → [32m35.31 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.638s at Mon Apr 25 2016 15:13:44 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.54 kB[39m → [32m35.31 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.778s at Mon Apr 25 2016 15:13:57 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.54 kB[39m → [32m35.31 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.687s at Mon Apr 25 2016 15:15:37 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.54 kB[39m → [32m35.31 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 4.223s at Mon Apr 25 2016 15:16:13 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m52.54 kB[39m → [32m35.31 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.660s at Mon Apr 25 2016 15:16:27 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/templates/methods.php" changed.
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m79[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[32mDone, without errors.[39m
+[36mCompleted in 1.856s at Mon Apr 25 2016 15:38:05 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[32m>> [39mFile "src/templates/methods.php" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.29 kB[39m → [32m33.6 kB[39m[22m
+
+[32mDone, without errors.[39m
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m79[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[32mDone, without errors.[39m
+[36mCompleted in 11.846s at Mon Apr 25 2016 15:38:16 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[32m>> [39mFile "src/templates/methods.php" changed.
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m79[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[32mDone, without errors.[39m
+[36mCompleted in 2.025s at Mon Apr 25 2016 15:38:54 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/templates/methods.php" changed.
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m80[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[32mDone, without errors.[39m
+[36mCompleted in 2.608s at Mon Apr 25 2016 15:48:49 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.44 kB[39m → [32m33.72 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.974s at Mon Apr 25 2016 15:50:47 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.49 kB[39m → [32m33.75 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.388s at Mon Apr 25 2016 15:51:04 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/templates/methods.php" changed.
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m80[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[32mDone, without errors.[39m
+[36mCompleted in 2.104s at Mon Apr 25 2016 15:51:34 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/templates/methods.php" changed.
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m80[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[32mDone, without errors.[39m
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.47 kB[39m → [32m33.73 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 9.378s at Mon Apr 25 2016 15:53:19 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/templates/methods.php" changed.
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m80[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[32mDone, without errors.[39m
+[36mCompleted in 1.687s at Mon Apr 25 2016 15:53:38 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/templates/methods.php" changed.
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m80[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[32mDone, without errors.[39m
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.52 kB[39m → [32m33.78 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 10.344s at Mon Apr 25 2016 15:54:12 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.58 kB[39m → [32m33.83 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.600s at Mon Apr 25 2016 15:54:33 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.56 kB[39m → [32m33.82 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.694s at Mon Apr 25 2016 15:55:17 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/templates/methods.php" changed.
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m80[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[32mDone, without errors.[39m
+[36mCompleted in 1.929s at Mon Apr 25 2016 15:59:47 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.55 kB[39m → [32m33.8 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.736s at Mon Apr 25 2016 16:00:23 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.56 kB[39m → [32m33.81 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.980s at Mon Apr 25 2016 16:00:37 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/templates/methods.php" changed.
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m80[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[32mDone, without errors.[39m
+[36mCompleted in 1.622s at Mon Apr 25 2016 16:01:28 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/templates/methods.php" changed.
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m80[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[32mDone, without errors.[39m
+[36mCompleted in 1.652s at Mon Apr 25 2016 16:03:11 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.87 kB[39m → [32m34.07 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 5.607s at Mon Apr 25 2016 16:06:41 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.98 kB[39m → [32m34.16 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 4.889s at Mon Apr 25 2016 16:07:20 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.98 kB[39m → [32m34.16 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.602s at Mon Apr 25 2016 16:07:39 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m51 kB[39m → [32m34.17 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.970s at Mon Apr 25 2016 16:08:01 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.93 kB[39m → [32m34.13 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.076s at Mon Apr 25 2016 16:08:25 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.95 kB[39m → [32m34.11 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.649s at Mon Apr 25 2016 16:09:25 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.96 kB[39m → [32m34.11 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.672s at Mon Apr 25 2016 16:10:09 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.96 kB[39m → [32m34.11 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.472s at Mon Apr 25 2016 16:10:50 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.65 kB[39m → [32m33.88 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 4.233s at Mon Apr 25 2016 16:11:31 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/templates/methods.php" changed.
+[4mRunning "htmlhint:src" (htmlhint) task[24m
+[32m>> [39m18 files lint free.
+
+[4mRunning "copy:php" (copy) task[24m
+Copied [36m24[39m files
+
+[4mRunning "copy:css" (copy) task[24m
+Copied [36m1[39m file
+
+[4mRunning "copy:images" (copy) task[24m
+Copied [36m80[39m files
+
+[4mRunning "copy:javascript" (copy) task[24m
+Copied [36m1[39m file
+
+[32mDone, without errors.[39m
+[36mCompleted in 1.897s at Mon Apr 25 2016 16:12:07 GMT+0200 (CEST)[39m - Waiting...
+[32m>> [39mFile "src/sass/sections/_agile-scrum.scss" changed.
+[4mRunning "sass:desktop" (sass) task[24m
+
+[4mRunning "sass:mobile" (sass) task[24m
+
+[4mRunning "cssmin:my_target" (cssmin) task[24m
+[32m>> [39m2 files created. [2m[32m50.72 kB[39m → [32m33.93 kB[39m[22m
+
+[32mDone, without errors.[39m
+[36mCompleted in 3.807s at Mon Apr 25 2016 16:13:16 GMT+0200 (CEST)[39m - Waiting...
+^C
+bash-3.2$ ggit status
+bash: ggit: command not found
+bash-3.2$ git status
+On branch refactor-scrum-agile/feature
+Your branch is up-to-date with 'origin/refactor-scrum-agile/feature'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   grunt/copy.js[m
+	[31mmodified:   grunt/jshint.js[m
+	[31mmodified:   src/footer.php[m
+	[31mdeleted:    src/img/agile-section-image.png[m
+	[31mdeleted:    src/img/arrow.png[m
+	[31mdeleted:    src/img/boxes.png[m
+	[31mdeleted:    src/img/increment.png[m
+	[31mmodified:   src/img/planning.png[m
+	[31mdeleted:    src/img/scrum-agile-image.png[m
+	[31mdeleted:    src/img/scrumm.png[m
+	[31mmodified:   src/img/sprint.png[m
+	[31mmodified:   src/js/main.js[m
+	[31mmodified:   src/sass/modules/_colors.scss[m
+	[31mmodified:   src/sass/sections/_agile-scrum.scss[m
+	[31mmodified:   src/templates/methods.php[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31msrc/img/product-increment.png[m
+	[31msrc/img/scrum-agile.png[m
+	[31msrc/img/vision.png[m
+	[31msrc/js/vendor/[m
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git add .
+bash-3.2$ git add .

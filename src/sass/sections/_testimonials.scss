@@ -1,0 +1,182 @@
+.sizing{
+	height: 30px;
+	width: auto;
+	
+}
+%grayfilter{
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	
+}
+.testimonials-section {
+	width: 100%;
+	height: auto;
+	background-color: $dark-orange;
+	color: $white;
+	text-align: center;
+
+	.prev-testimonial {
+		@extend .sizing;
+		float: left;
+		margin: 120px 0 0 100px;
+
+		@media screen and (max-width: 1170px) {
+			margin-left: 50px;
+		}
+
+		@media screen and (max-width: 975px) {
+			margin-left: 20px;
+		}
+	}
+
+	.next-testimonial {
+		@extend .sizing;
+		float: right;
+		margin: 120px 100px 0 0;
+
+		@media screen and (max-width: 1170px) {
+			margin-right: 50px;
+		}
+		@media screen and (max-width: 975px) {
+			margin-right: 20px;
+		}
+	}
+}
+
+.testimonials-wrap {
+	width: auto;
+	max-width:80%;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.slider-wrapper{
+	height: 200px;
+	margin: 10px auto 45px auto;
+	display:inline-block;
+	position:relative;
+	overflow:hidden;
+	width: 81vw;
+}
+
+.testimonials-quote {
+	display: none;
+
+	&:nth-child(2){
+		display: block;
+	}
+
+	margin: 45px auto 0 auto;
+	width: 75%;
+	height: 75px;
+	font-style: italic;
+	line-height: 25px;
+	font-size: 16px;
+}
+
+.testimonials-slider {
+	width:2000px;
+	padding-left: 0;
+	@media screen and (max-width:800px){
+		padding-left: 0;
+	}
+}
+
+.testimonials-slider-item {
+	@include flex-align(center);
+	@include flexbox();
+	position: absolute;
+	float: left;
+	transition: 1s;
+	padding: 0 4%;
+	box-sizing: border-box;
+	list-style-type: none;
+	text-align: left;
+	margin: 3px;
+	width: calc(100% / 3);
+	height: auto;
+
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+	
+	&:nth-child(2){
+		@extend %grayfilter;
+		filter: none;
+
+	}
+
+	&:hover {
+		@extend %grayfilter;
+		filter: none;
+	}
+
+	@media screen and (max-width: 900px) {
+		width: calc(100% / 2);
+	}
+
+	@media screen and (max-width: 500px) {
+		width: 100%;
+	}
+
+	.testimonials-slider-img {
+		width: 110px;
+		height: 110px;
+		margin: auto;
+		border-radius: 100%;
+		overflow: hidden;
+		display: inline-block;
+		background-size: cover;
+		background-position: center center;
+
+	}
+
+	.employee-photo-active {
+		@extend %grayfilter;
+		height: 125px;
+		filter: gray;
+
+		@media screen and (max-width: 915px) {
+			height: auto;
+			max-width: 90px;
+		}
+	}	
+
+
+	.employee-info {
+		display: inline-block;
+		width: 45%;
+		height: auto;
+		word-break: break-word;
+		vertical-align: center;
+		margin: 0 0 0 10px;
+		font-size: 0.8em;
+		position: relative;
+
+		@media screen and (max-width: 1030px) {
+			width: 40%;
+		}
+
+		@media screen and (max-width: 915px) {
+			font-size: 0.6em;
+		}
+
+		@media screen and (max-width: 500px) {
+			margin: auto;
+		}
+
+		.employee-name {
+			font-weight: 600;
+			font-size: 14px;
+		}
+
+		.employee-job {
+			clear: both;
+			display: block;
+			margin: 0;
+			text-align: left;
+			font-weight: 300;
+			font-size: 13px;
+		}
+	}
+}

@@ -1,0 +1,9 @@
+@mixin photo-styling ($width) {
+	width: $width;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	webkit-box-sizing: border-box;
+	float: left;
+	border: 3px solid $white;
+}

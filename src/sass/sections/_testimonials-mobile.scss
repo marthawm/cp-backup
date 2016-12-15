@@ -1,0 +1,40 @@
+.testimonials-mobile-section {
+	width: 100%;
+	height: auto;
+	background-color: $dark-orange;
+	color: $white;
+	.testimonials-wrap-mobile {
+		width: auto;
+		margin: 0 auto;
+		padding: 20px 0;
+		.testimonials-quote-mobile {
+			width: 90%;
+			margin: 0 auto;
+			text-align: center;	
+			font-style: italic;
+			font-size: 13px;
+			line-height: 1.3em;
+		}
+		.employee-image-mobile {
+			width: 20%;
+			border-radius: 100%;
+			margin-left: 50px;
+		}
+		.employee-info-mobile {
+			width: 60%;
+			float: right;
+			margin-top: 15px;
+			.employee-name-mobile {
+				display: block;
+				font-size: 13px;
+				font-weight: 600;
+			}
+			.employee-job-mobile {
+				display: block;
+				font-size: 12px;
+			}
+		}		
+	}
+}
+
+

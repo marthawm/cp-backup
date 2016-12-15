@@ -1,0 +1,187 @@
+/*
+ * The color names are based on the hexa-color and
+ * converted with http://name-of-color.com/
+*/
+body {
+  background-color: #ffffff; }
+
+.scrum-agile-settings {
+  position: relative;
+  margin: 5px 10px 30px;
+  width: 100%;
+  color: #fff; }
+  .scrum-agile-settings img {
+    margin-top: 130px;
+    width: 100%; }
+  .scrum-agile-settings .admin-balloons-container {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 0;
+    display: flex;
+    justify-content: space-between; }
+    .scrum-agile-settings .admin-balloons-container .single-balloon-container {
+      width: 100%;
+      height: auto; }
+      .scrum-agile-settings .admin-balloons-container .single-balloon-container .balloon {
+        width: 90%;
+        height: 120px;
+        padding: 10px;
+        background: #d15f23;
+        text-align: center;
+        transition: 1s;
+        overflow: hidden;
+        margin-top: 150px; }
+        .scrum-agile-settings .admin-balloons-container .single-balloon-container .balloon h4 {
+          margin: 0;
+          font-weight: 400;
+          text-transform: uppercase; }
+        .scrum-agile-settings .admin-balloons-container .single-balloon-container .balloon p {
+          margin: 0;
+          font-size: 12px;
+          display: none; }
+        .scrum-agile-settings .admin-balloons-container .single-balloon-container .balloon input, .scrum-agile-settings .admin-balloons-container .single-balloon-container .balloon textarea {
+          margin: 2px 0;
+          width: 95%; }
+      .scrum-agile-settings .admin-balloons-container .single-balloon-container:nth-child(3) .balloon {
+        margin-top: -20px; }
+
+.admin-settings-box {
+  margin: 20px 1% 0 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  border: 1px solid #e5e5e5;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  background: #fff; }
+  .admin-settings-box .admin-settings-sidebar {
+    min-width: 130px;
+    background-color: #acacac; }
+    .admin-settings-box .admin-settings-sidebar .admin-settings-logo {
+      color: #ffffff;
+      padding: 20px 5px;
+      font-size: 16px;
+      font-weight: bold; }
+    .admin-settings-box .admin-settings-sidebar .admin-settings-nav {
+      margin: 0;
+      padding: 0; }
+      .admin-settings-box .admin-settings-sidebar .admin-settings-nav li {
+        margin: 0;
+        padding: 0; }
+        .admin-settings-box .admin-settings-sidebar .admin-settings-nav li a {
+          display: block;
+          padding: 14px 5px;
+          color: white;
+          font-size: 13px;
+          line-height: 16px;
+          text-decoration: none;
+          outline: none;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none; }
+          .admin-settings-box .admin-settings-sidebar .admin-settings-nav li a:focus, .admin-settings-box .admin-settings-sidebar .admin-settings-nav li a:active {
+            outline: none; }
+      .admin-settings-box .admin-settings-sidebar .admin-settings-nav li a:hover, .admin-settings-box .admin-settings-sidebar .admin-settings-nav li.cp-tab-active a {
+        background-color: #ff8a00;
+        color: #ffffff; }
+  .admin-settings-box .admin-settings-content {
+    padding: 0 20px 20px 20px;
+    vertical-align: top; }
+    .admin-settings-box .admin-settings-content h3 {
+      margin: 1.5em 0; }
+
+.form-table th {
+  display: none; }
+
+.form-table td {
+  padding: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.item {
+  float: left;
+  background: #2296DD;
+  border: 3px solid #fff; }
+
+.main {
+  width: 840px; }
+
+.item img {
+  display: block;
+  min-height: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  max-width: 100%; }
+
+.hidden {
+  display: none; }
+
+.visible {
+  display: block; }
+
+.item.img1 {
+  width: 120px;
+  height: 120px;
+  background: #cfcfcf; }
+
+.item.img2 {
+  width: 120px;
+  height: 120px;
+  background: #A6E392; }
+
+.item.img3 {
+  width: 240px;
+  height: 240px;
+  background: #D092E3; }
+
+.item.img4 {
+  width: 210px;
+  height: 120px;
+  background: #cfcfcf; }
+
+.item.img5 {
+  width: 150px;
+  height: 120px;
+  background: #cfcfcf; }
+
+.item.img6 {
+  width: 240px;
+  height: 120px;
+  background: #A6E392; }
+
+.item.img7 {
+  width: 150px;
+  height: 120px;
+  background: #D092E3; }
+
+.item.img8 {
+  width: 210px;
+  height: 120px;
+  background: #cfcfcf; }
+
+.item.img9 {
+  width: 160px;
+  height: 120px;
+  background: #A6E392; }
+
+.item.img10 {
+  width: 270px;
+  height: 120px;
+  background: #D092E3; }
+
+.item.img11 {
+  width: 260px;
+  height: 120px;
+  background: #cfcfcf; }
+
+.item.img12 {
+  width: 150px;
+  height: 120px;
+  background: #A6E392; }
+
+/*# sourceMappingURL=admin-style.css.map */

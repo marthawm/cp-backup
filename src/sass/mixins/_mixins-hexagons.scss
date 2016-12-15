@@ -1,0 +1,73 @@
+@mixin border-sides($border-width, $border-style, $border-color) {
+  border-left: $border-width $border-style $border-color;
+  border-right: $border-width $border-style $border-color;
+}
+
+@mixin hexagon-big($color) {
+  .hexagon-outer {
+    position: relative;
+    width: 92px; 
+    height: 58px;
+    background-color: $color;
+    margin: 29px auto;
+
+    .fa{
+      color: $color;
+    }
+
+    @include border-sides(4px, solid, $color);
+  }
+
+  .hexagon-outer:before,
+  .hexagon-outer:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    right: -4px;
+
+    @include border-sides(50px, solid, transparent);
+  }
+
+  .hexagon-outer:before {
+    bottom: 100%;
+    border-bottom: 29px solid $color;
+  }
+
+  .hexagon-outer:after {
+    top: 100%;
+    border-top: 29px solid $color;
+  }
+}
+
+@mixin hexagon-small {
+  .hexagon-inner {
+    position: relative;
+    width: 92px; 
+    height: 54px;
+    background-color: $white;
+    margin: 26px 0;
+    top: 2px;
+    z-index: 1;
+  }
+
+  .hexagon-inner:before,
+  .hexagon-inner:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    right: 0px;
+    
+    @include border-sides(46px, solid, transparent);
+  }
+
+  .hexagon-inner:before {
+    bottom: 100%;
+    border-bottom: 26px solid $white;
+  }
+
+  .hexagon-inner:after {
+    top: 100%;
+    border-top: 26px solid $white;
+  }
+    
+}

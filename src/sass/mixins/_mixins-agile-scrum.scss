@@ -1,0 +1,25 @@
+@mixin agile-scrum($section-width, $img-bottom, $arrow-box-bottom) {
+  width: $section-width;
+  padding: 7px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  img {
+  	width: 100%;
+  	height: auto;
+  	margin: 0 auto;
+  	position: absolute;
+  	bottom: $img-bottom;
+  }
+
+  .information {
+  	margin: 0 auto;
+  }
+
+  .arrow-box {
+    bottom: $arrow-box-bottom;
+  }
+}

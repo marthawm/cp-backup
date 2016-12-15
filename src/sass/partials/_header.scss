@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  height: 81px;
+  background: $white;
+  top: 0;
+  z-index: 15;
+  position: fixed;
+
+  @media screen and (max-width: 480px) {
+    height: 215px;
+  }
+
+  @media screen and (max-device-width: 480px) {
+    height: 60px;
+  }
+
+  .logo {
+    width: 70px;
+    margin-top: 8px;
+    height: auto;
+    margin-left: calc(50% - 2em - 75px);
+
+    @media screen and (max-width: 850px) {
+      margin-left: calc(50% - 205px);
+    }
+
+    
+    @media screen and (max-width: 480px) {
+      width: 50px;
+      margin-left: calc(50% - 2em - 50px);
+    }
+    
+
+  }
+}

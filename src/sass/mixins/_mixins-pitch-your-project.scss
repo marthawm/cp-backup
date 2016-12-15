@@ -1,0 +1,34 @@
+@mixin pitch-your-project-mixin($width, $right) {
+  display: block;
+  position: fixed;
+  height: 100vh;
+  width: $width;
+  background-color: $dark-orange;
+  z-index: 16;
+  overflow: hidden;
+  text-transform: uppercase;
+  right: 0;
+
+  /*
+  @media screen and (max-width: 480px) {
+  	width: 100vw;
+  	z-index: 20;
+  	position: relative;
+  }
+  */
+  @keyframes pitch-your-project-slide-close {
+    from {
+      right: 0;
+    } to {
+        right: $right;
+      }
+  }
+
+  @keyframes pitch-your-project-slide-open {
+    from {
+      right: $right;
+    } to {
+        right: 0;
+      }
+  }
+}

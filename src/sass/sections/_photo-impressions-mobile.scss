@@ -1,0 +1,46 @@
+.photo-impressions-section-mobile {
+	display: block;
+	width: 100%;
+	position: relative;
+	.mobile-photo-slider {
+		list-style: none;
+		width: 100%;
+		padding:0;
+		margin: 0;
+		margin-bottom: -4px;
+		margin-top: 10px;
+		.mobile-photo-slider-item {
+			//display: none;  //this has been commented to display only th nth child
+			&:nth-child(2){
+				display: block;
+			}
+			.mobile-photo {
+				width: 100%;
+			}
+		}
+	}
+	.mobile-photo-slider-nav {//ul
+		list-style-type: none;
+		padding: 0;
+		margin-left: calc(50% - 45px);
+		bottom: 0;
+		position: absolute;
+		.mobile-photo-slider-bullet {//li
+			display: inline;
+			margin: 3px;
+			list-style-position: inside;
+			overflow: hidden;
+			a {
+				display: inline-block;
+				height: 6px;
+				width: 6px;
+				border-radius: 50%;
+				border: 2px solid $white;
+				text-decoration: none;
+				&:active {
+					background: $white;
+				}
+			}
+		}
+	}
+}
